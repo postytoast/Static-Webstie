@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;   
+}
+
+
+body{
+    background-color: #353A77;
+    background: linear-gradient(rgba(31, 41, 84, 0.5), rgba(31, 41, 84, 0.5)), 
+                url('https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png')
+    
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.question{
+    background-color: rgba(145,209,242,0.8);
+    margin-top: 10rem;
+}
+.question-after{
+    background-color: rgba(145,209,242,0.8);
+    margin-top: 3rem;
+}
+
+.question-number{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border: black solid;
+    text-align: center;
+}
+.top-label{
+    color: white;
+}
+.question-text{
+    padding-top: 10px;
+    color: white;
+}
+
+input{
+    visibility: hidden;
+
+}
+
+label {
+    cursor: pointer;
+    border: black solid 1px;
+    background-color: 
+    rgb(130, 152, 176, 0.69);
+    padding: 10px;
+    color: white;
+    
+}
+input:checked + label {
+    background: rgba(234, 32, 13, 0.8);
+}
+
+
+.question-text {
+    display: flex;
+}
+
+.question-text p {
+    flex: 50%
+}
+
+.question-text div {
+    flex: 40%;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.score-container{
+    color: white;
+    border: black solid 2px;
+    background-color: rgba(31, 41, 84, 0.5);
+    margin-top: 2rem;
+    margin-left: 6.5vw;
+    width: 220px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.submit{
+    margin-left: auto;
+    background-color: rgba(31, 41, 84, 0.9);
+    color: white;
+    border: black solid 1px;
+}
+
+.footer-foot{
+    background-color: #28242c;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 48px;
+    bottom: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footLogo{
+    width: 150px;
+}
+
+
+

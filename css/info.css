@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #353A77;
+    background: linear-gradient(rgba(31, 41, 84, 0.5), rgba(31, 41, 84, 0.5)), 
+                url('https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png')
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.map-image{
+    width: 75%;
+    height: auto;
+    margin-top: 3rem;
+}
+table{
+    margin-top: 2rem;
+}
+.points{
+    color: red;
+}
+th, td{
+    border: grey solid 2px;
+    color: white;
+    border-collapse: collapse;
+}
+
+
+.footLogo{
+    width: 150px;
+}
+
+.footer-foot{
+    background-color: #28242c;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 48px;
+    bottom: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footLogo{
+    width: 150px;
+}
+

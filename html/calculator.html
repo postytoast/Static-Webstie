@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/calculator.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand mb-0"
+          ><img src="../images/logo.png" class="logo"
+        /></a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="=navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link active" href="calculator.html"
+              >Score Calculator</a
+            >
+            <a class="nav-item nav-link active" href="info.html">Map Guide</a>
+            <a class="nav-item nav-link active" href="Route Planner.html"
+              >Route Planner</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <form class="form-container container">
+      <div class="container-q1 question">
+        <span class="question-number">M00</span>
+        <span class="top-label">EQUIPMENT INSPECTION</span>
+        <div class="question-text row">
+          <p>
+            All team equipment fits in one launch area and under 12 inch. (30.5
+            cm):
+          </p>
+          <div>
+            <input type="radio" id="q1-1" name="q1" value="0" checked />
+            <label for="q1-1">No</label>
+            <input type="radio" id="q1-2" name="q1" value="20" />
+            <label for="q1-2">Yes</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q2 question-after">
+        <span class="question-number">M01</span>
+        <span class="top-label">INNOVATION PROJECT</span>
+        <div class="question-text row">
+          <p>
+            The Innovation Project model is:
+            <li>Made of at least two white LEGO® pieces.</li>
+            <li>
+              Measures at least as long as 4 LEGO studs in some direction.
+            </li>
+            <li>Is at least partly in the Cargo Connect Logo.</li>
+          </p>
+          <div>
+            <input type="radio" id="q2-1" name="q2" value="0" checked />
+            <label for="q2-1">No</label>
+            <input type="radio" id="q2-2" name="q2" value="20" />
+            <label for="q2-2">Yes</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q3 question-after">
+        <span class="question-number">M02</span>
+        <span class="top-label">UNUSED CAPACITY</span>
+        <div class="question-text row align-content-end">
+          <p>
+            The hinged container is completely closed with the contents
+            completely full:
+          </p>
+          <div>
+            <input type="radio" id="q3-1" name="q3" value="0" checked />
+            <label for="q3-1">Empty</label>
+            <input type="radio" id="q3-2" name="q3" value="20" />
+            <label for="q3-2">Partially</label>
+            <input type="radio" id="q3-3" name="q3" value="30   " />
+            <label for="q3-3">Completely</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q4 question-after">
+        <span class="question-number">M03</span>
+        <span class="top-label">UNLOAD CARGO PLANE</span>
+        <div class="question-text">
+          <p>
+            The Cargo Plane door handle rests completely down touching the black
+            frame and cargo is seperate from plane:
+          </p>
+          <div>
+            <input type="radio" id="q4-1" name="q4-a" value="0" checked />
+            <label for="q4-1">No</label>
+            <input type="radio" id="q4-2" name="q4-a" value="20" />
+            <label for="q4-2">Yes</label>
+          </div>
+        </div>
+        <hr />
+        <div class="question-text">
+          <p>The Cargo is completely seperate from the plane:</p>
+          <div>
+            <input type="radio" id="q4-3" name="q4-b" value="0" checked />
+            <label for="q4-3">No</label>
+            <input type="radio" id="q4-4" name="q4-b" value="10" />
+            <label for="q4-4">Yes</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q5 question-after">
+        <span class="question-number">M04</span>
+        <span class="top-label">TRANSPORTATION JOURNEY</span>
+        <div class="question-text">
+          <p>Truck has passed the blue line:</p>
+          <div>
+            <input type="radio" id="q5-1" name="q5-a" value="0" checked />
+            <label for="q5-1">No</label>
+            <input type="radio" id="q5-2" name="q5-a" value="10" />
+            <label for="q5-2">Yes</label>
+          </div>
+        </div>
+        <hr />
+        <div class="question-text">
+          <p>Plane has passed the blue line:</p>
+          <div>
+            <input type="radio" id="q5-3" name="q5-b" value="0" checked />
+            <label for="q5-3">No</label>
+            <input type="radio" id="q5-4" name="q5-b" value="10" />
+            <label for="q5-4">Yes</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q6 question-after">
+        <span class="question-number">M05</span>
+        <span class="top-label">SWITCH ENGINE</span>
+        <div class="question-text">
+          <p>
+            The engine has been switched from diesel to electric so that the
+            yellow bar rests all the way down:
+          </p>
+          <div>
+            <input type="radio" id="q6-1" name="q6" value="0" checked />
+            <label for="q6-1">No</label>
+            <input type="radio" id="q6-2" name="q6" value="20" />
+            <label for="q6-2">Yes</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q7 question-after">
+        <span class="question-number">M06</span>
+        <span class="top-label">ACCIDENT AVOIDANCE</span>
+        <div class="question-text">
+          <p>
+            If your robot is parked over the blue accident-avoidance line at the
+            end of the match and the yellow panel is:
+          </p>
+          <div>
+            <input type="radio" id="q7-1" name="q7" value="0" checked />
+            <label for="q7-1">Uncompleted</label>
+            <input type="radio" id="q7-2" name="q7" value="20" />
+            <label for="q7-2">Not Knocked</label>
+            <input type="radio" id="q7-3" name="q7" value="30" />
+            <label for="q7-3">Knocked</label>
+          </div>
+        </div>
+      </div>
+      <div class="container-q8 question-after">
+        <span class="question-number">M07</span>
+        <span class="top-label">UNLOAD CARGO SHIP</span>
+        <div class="question-text">
+          <p>The location of the container of touching the ship:</p>
+          <div>
+            <input type="radio" id="q8-1" name="q8" value="0" checked />
+            <label for="q8-1">Contact</label>
+            <input type="radio" id="q8-2" name="q8" value="20" />
+            <label for="q8-2">No Contact</label>
+            <input type="radio" id="q8-3" name="q8" value="30" />
+            <label for="q8-3">Away</label>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="score-container">
+      <h2>Score: <span id="score">0</span></h2>
+      <button class="submit" onclick="calculateScore()">Submit</button>
+    </div>
+    <div class="container-fluid footer-foot">
+      <div class="footer text-light">
+        <div class="row foot">
+          <div class="col-md-4">
+            <img class="footLogo" src="../images/logo.png" />
+          </div>
+          <div class="col-md-2">
+            <a href="calculator.html">Score Calculator</a>
+          </div>
+          <div class="col-md-2">
+            <a href="info.html">Map Guide</a>
+          </div>
+          <div class="col-md-2">
+            <a href="Route Planner.html">Route Planner</a>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/calculator.js"></script>
+  </body>
+</html>

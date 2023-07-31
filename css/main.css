@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body{
+    background-color: #353A77;
+    background: linear-gradient(rgba(31, 41, 84, 0.5), rgba(31, 41, 84, 0.5)), 
+                url('https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png')
+    
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.top-container{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.main-info{
+    padding-top: 50px;
+    color: white;
+}
+.main-slogon, .main-slogon2{
+    font-size: 3.5rem;
+    line-height: 55px;
+}
+
+
+.main-slogon2{
+    color: #6fe3f7;
+}
+
+.info-text{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.robot-img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: rgba(31, 41, 84, 0.2);
+}
+
+@media (max-width: 995px) {
+    .robot-img {
+      display: none;
+    }
+  }
+
+hr{
+border: rgba(10,10,10,0.5) solid 2px;
+opacity: .5;
+margin-top: 10rem;
+}
+
+/* bottom container css */
+
+.bottom-container{
+    margin-top: 10rem;
+    color: white;
+}
+.header{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 24px;
+}
+
+
+.fll-info{
+    background-color: rgba(145,209,242,0.8);
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 36px;
+}
+.robot-game-info{
+    background-color: rgba(240,188,84,0.8);
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 36px;
+}
+
+box-icon{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+.pic1{
+    height: 250px;
+    width: auto;
+    padding-top:24px;
+}
+
+.pic2{
+    height: 270px;
+    width: auto;
+    padding-top: 24px;
+}
+
+.head1, .head2{
+    text-align: left;
+    font-size: 38px;
+}
+
+/* footer */
+
+.footer-foot{
+    background-color: #28242c;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 48px;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footLogo{
+    width: 150px;
+}
